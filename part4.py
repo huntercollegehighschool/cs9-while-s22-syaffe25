@@ -12,3 +12,14 @@ Enter a number or enter 0 to stop: 0
 Product: 60
 
 '''
+num = int(input("Enter a number or enter 0 to stop:"))
+total = 1
+
+while num != 0:
+  total = total*num
+  num = int(input("Enter a number or enter 0 to stop:"))
+  
+    
+print("Average:", total)
+
+#I altered the same code from part 3 to have *= instead of +=, deleted the inp value, and changed total to initially be 1 bc 1 is the multiplication base
